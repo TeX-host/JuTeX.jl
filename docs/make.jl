@@ -4,11 +4,11 @@ using Documenter
 makedocs(;
     modules=[JuTeX],
     authors="woclass",
-    repo="https://github.com/inkydragon/JuTeX.jl/blob/{commit}{path}#L{line}",
+    repo="https://github.com/TeX-host/JuTeX.jl/blob/{commit}{path}#L{line}",
     sitename="JuTeX.jl",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
-        canonical="https://inkydragon.github.io/JuTeX.jl",
+        canonical="https://TeX-host.github.io/JuTeX.jl",
         assets=String[],
     ),
     pages=[
@@ -17,5 +17,5 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/inkydragon/JuTeX.jl",
+    repo="github.com/TeX-host/JuTeX.jl",
 )
