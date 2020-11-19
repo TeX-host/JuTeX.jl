@@ -1,3 +1,3 @@
 var documenterSearchIndex = {"docs":
-[{"location":"","page":"Home","title":"Home","text":"CurrentModule = JuTeX","category":"page"},{"location":"#JuTeX","page":"Home","title":"JuTeX","text":"","category":"section"},{"location":"","page":"Home","title":"Home","text":"","category":"page"},{"location":"","page":"Home","title":"Home","text":"Modules = [JuTeX]","category":"page"}]
+[{"location":"","page":"Home","title":"Home","text":"CurrentModule = JuTeX","category":"page"},{"location":"#JuTeX","page":"Home","title":"JuTeX","text":"","category":"section"},{"location":"","page":"Home","title":"Home","text":"","category":"page"},{"location":"","page":"Home","title":"Home","text":"Modules = [JuTeX]","category":"page"},{"location":"#JuTeX.@decr!-Tuple{Any}","page":"Home","title":"JuTeX.@decr!","text":"x–\n\n\n\n\n\n","category":"macro"},{"location":"#JuTeX.@negate!-Tuple{Any}","page":"Home","title":"JuTeX.@negate!","text":"x = -x\n\n\n\n\n\n","category":"macro"}]
 }
