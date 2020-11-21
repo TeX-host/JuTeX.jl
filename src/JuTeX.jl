@@ -1,6 +1,7 @@
 module JuTeX
 
 include("macros.jl")
-# include("fixpoint.jl")
+include("types.jl")
+include("fixpoint.jl")
 
 end

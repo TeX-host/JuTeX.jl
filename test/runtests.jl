@@ -1,5 +1,6 @@
 using Test
 using JuTeX: @decr!, @negate!
+using JuTeX.FixPoint
 
 
 @testset "JuTeX.jl" begin
@@ -29,6 +30,10 @@ end
 @testset "macros.jl" begin
     @test test_decr!(-257:257)
     @test test_negate!(-257:257)
+end
+
+@testset "macros.jl" begin
+    @test UNITY*2 == TWO
 end
 
 end # JuTeX.jl
