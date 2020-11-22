@@ -34,8 +34,17 @@ Note: `017777777777L == 2147483647L`
 """
 mult_integers(n, x) = mult_and_add(n, x, 0, 0o177_7777_7777)
 
-"[#100] x div 2"
-function half(x) end
+"""[#100] x div 2
+
+div(x, 2, RoundNearestTiesUp)
+"""
+function half(x::Integer)
+    if isodd(x)
+        (x + 1) / 2
+    else
+        x / 2
+    end
+end
 
 """[#102]: create a scaled integer from a given decimal fraction.
 { dig[i], | i = k-1, 0 ≤ k ≤ 17 }
