@@ -32,7 +32,7 @@ end
     @test test_negate!(-257:257)
 end
 
-@testset "macros.jl" begin
+@testset "fixpoint.jl" begin
     @test UNITY*2 == TWO
 end
 
